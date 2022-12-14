@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Tabs - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Memphis</a></li>
+    <li><a href="#tabs-2">Raleigh</a></li>
+    <li><a href="#tabs-3">Nashville</a></li>
+    <li><a href="#tabs-4">Coral Gables</a></li>
+    <li><a href="#tabs-5">Knoxville</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p><iframe 
+   height="245px"
+   width="775px"   src="https://forecast.io/embed/#lat=35.149&lon=-90.0516&name=Memphis,%20Tennessee&color=#00aaff&font=Georgia&units=us">
+</iframe></p>
+  </div>
+  <div id="tabs-2">
+    <p><iframe 
+   height="245px"
+   width="775px"
+   src="https://forecast.io/embed/#lat=35.7804&lon=-78.6391&name=Raleigh,%20North Carolina&color=#00aaff&font=Georgia&units=us">
+</iframe></p>
+  </div>
+<div id="tabs-3">
+    <p><iframe 
+   height="245px"
+   width="775px" src="https://forecast.io/embed/#lat=36.1622&lon=-86.7744&name=Nashville,%20Tennessee&color=#00aaff&font=Georgia&units=us">
+</iframe></p>
+  </div>
+<div id="tabs-4">
+    <p><iframe 
+   height="245px"
+   width="775px" src="https://forecast.io/embed/#lat=25.6906&lon=-80.235&name=Coral Gables,%20Florida&color=#00aaff&font=Georgia&units=us">
+</iframe></p>
+  </div>
+<div id="tabs-5">
+    <p><iframe 
+   height="245px"
+   width="775px" src="https://forecast.io/embed/#lat=35.973&lon=-83.9695&name=Knoxville,%20Tennessee&color=#00aaff&font=Georgia&units=us">
+</iframe></p>
+  </div>
